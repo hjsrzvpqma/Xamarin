@@ -1,15 +1,14 @@
-***
-# <p align="center">Xamarin (Zamarin) For Super Groups
-####<p align="center">**The Pro Telegram Group Manager**
-<p align="center">Created By ♥ In Iran
-***
+# <p align="center">**زامارین : سوپر گروه**
+<p align="center">**ربات مدیریت حرفه ای و آسان گروه**
+<p align="center">ساخته شده با ♥ در ایران
 
-**A Telegram Bot based on plugins using [tg](https://github.com/vysheng/tg) **
-
-## Installation
+####<p align="center">**!توجه : این سورس رایگان نمیباشد ، برای دریافت و خرید پلاگین های اضافه به آی دی تلگرام سازنده پیام بدهید**
+***
+####<p align="right">**: راهنمای نصب**
 
 ```bash
 # ابتدا با کد زیر بسته پیش نیاز زبان برنامه نویسی لوآ را نصب میکنیم
+sudo apt-get update
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev
 ```
 
@@ -18,17 +17,19 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 cd $HOME
 git clone https://github.com/amirhmz/Xamarin.git -b supergroups
 cd Xamarin
-chmod +x ./xamarin.sh
-./xamarin.sh install
-./xamarin.sh # سپس شماره تلگرام و کد تایید را وارد میکنیم
+git clone *آدرس گیت پلاگین ها*
+# برای دریافت آدرس گیت پلاگین ها باید سورس را از توسعه دهندگان آن خریداری نمایید!
+mv *نام پوشه کلون شده* plugins
+chmod +x ./launch.sh
+./launch.sh install
+./launch.sh # سپس شماره تلگرام و کد تایید را وارد میکنیم
 ```
 
-# Contact Me
-| Bot | Channel | Telegram | Email |
+***
+
+####<p align="right">**: ارتباط با ما**
+| Bot | Telegram Channel | Telegram Support | Email |
 |---------|--------|-------| ----- |
-| [Bot](https://telegram.me/XamarinTG) | [Join](https://telegram.me/DarkTeam) | [Developer](http://telegram.me/AmirDark) :trollface: | [Email](mailto:amdark77@gmail.com) 
+| [Bot](https://telegram.me/XamarinTG) | [Join](https://telegram.me/XamarinCH) | [AmirDark (Sudo)](http://telegram.me/AmirDark) :trollface: | [Email](mailto:amdark77@gmail.com) 
 
-> _If you are using /join service for first time_
->> _you have to send it 11 time ( Bot is spam reported )_
-
-# Enjoy it  ♥ 
+####<p align="center">**♥ !لذت ببرید**
